@@ -70,6 +70,3 @@ This approach enables more accurate business evaluation and avoids misleading co
 ## Author
 Sofiia Didenko
 
-Sofiia Didenko  
-Web Technologies Engineering Student  
-Data Analytics Trainee  
