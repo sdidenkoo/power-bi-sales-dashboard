@@ -8,65 +8,64 @@ The objective was to evaluate business performance, identify regional difference
 
 ---
 
-## Data Modeling
+## Dashboard Preview
 
-The dataset was structured at the state level and includes aggregated metrics:
-
-- Total Revenue  
-- Total Orders  
-- Total Customers  
-
-Custom DAX measures were implemented to calculate:
-
-- Average Orders per Customer  
-- Revenue per Customer  
+![Dashboard Preview](images/dashboard-preview.png)
 
 ---
 
-## Key Performance Indicators
+## Data Modeling
+
+The data model was built using a star schema structure, including:
+
+- Fact table: Sales
+- Dimension tables: Customers, Products, Date, Geography
+
+Relationships were created to enable accurate aggregation and filtering across different dimensions.
+
+---
+
+## Key Performance Indicators (KPIs)
 
 The dashboard includes the following KPIs:
 
-- Total Revenue  
-- Total Orders  
-- Total Customers  
-- Average Orders per Customer  
+- Total Sales
+- Total Profit
+- Profit Margin
+- Sales by State
+- Sales by Category
+- Customer Segmentation
 
-These indicators provide a high-level overview of overall business performance.
+Custom DAX measures were created to calculate:
 
----
-
-## Analytical Approach
-
-The analysis distinguishes between volume-based and value-based performance.
-
-Key insights:
-
-- High total revenue may be driven by customer volume.
-- Revenue per Customer highlights customer value.
-- Average Orders per Customer reflects purchasing behavior differences.
-
-This approach enables more accurate business evaluation and avoids misleading conclusions based solely on total revenue.
-
----
-
-## Visualizations Included
-
-- Revenue by State  
-- Revenue per Customer by State  
-- Average Orders per Customer by State  
+- Profit Margin %
+- Year-over-Year Growth
+- Average Order Value
 
 ---
 
 ## Tools & Technologies
 
-- Power BI  
-- DAX  
-- Data Modeling  
-- Business Performance Analysis  
+- Power BI
+- DAX (Data Analysis Expressions)
+- Data Modeling (Star Schema)
+- Data Visualization Best Practices
+
+---
+
+## Insights & Analysis
+
+The dashboard allows users to:
+
+- Compare performance across states
+- Identify high-performing product categories
+- Analyze profitability trends
+- Evaluate customer contribution to revenue
+
+The focus was placed on clarity, usability, and business-driven insights.
 
 ---
 
 ## Author
-Sofiia Didenko
 
+Sofiia Didenko
