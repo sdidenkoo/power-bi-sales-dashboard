@@ -10,7 +10,7 @@ The objective was to evaluate business performance, identify regional difference
 
 ## Dashboard Preview
 
-![Dashboard Preview](images/dashboard-preview.png)
+![Dashboard Preview](images/dashboard-preview.jpg)
 
 ---
 
