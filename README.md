@@ -66,6 +66,4 @@ The focus was placed on clarity, usability, and business-driven insights.
 
 ---
 
-## Author
 
-Sofiia Didenko
